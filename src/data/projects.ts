@@ -35,8 +35,8 @@ export const projects: Project[] = [
         architectureHighlight:
             "Engineered for Performance: Leveraged Zustand for zero-overhead state management to prevent 3D canvas re-renders, alongside custom Webpack bundle strategies.",
         securityDetails: "End-to-end encrypted local storage, secure Electron IPC bridging.",
-        screenshots: ["/docs/screenshots/01-kurunegala-furnitures.png"],
-        image: "/docs/screenshots/01-kurunegala-furnitures.png",
+        screenshots: ["kurunegala-furnitures-home.png"],
+        image: "kurunegala-furnitures-home.png",
     },
     {
         title: "CoconutGuard: AI Agri-Tech",
@@ -58,8 +58,8 @@ export const projects: Project[] = [
         architectureHighlight:
             "Asynchronous Fluidity: Strict non-blocking UI threads during heavy on-device ML inference for a zero-lag user experience.",
         securityDetails: "AES‑256 encryption for data at rest, RBAC with role‑based policies, secure Firebase rules.",
-        screenshots: ["/docs/screenshots/02-coconutguard.png"],
-        image: "/docs/screenshots/02-coconutguard.png",
+        screenshots: ["cocoguard-dashboard.png"],
+        image: "cocoguard-dashboard.png",
         liveUrl: "https://coconutguard.netlify.app/",
     },
     {
@@ -83,8 +83,8 @@ export const projects: Project[] = [
         architectureHighlight:
             "Built on the Next.js App Router with a robust PostgreSQL/Prisma data layer, laying the groundwork for offline-ready PWA capabilities.",
         securityDetails: "AES‑256 encryption for all health data, role‑based access controls for clinicians.",
-        screenshots: ["/docs/screenshots/03-suriya.png"],
-        image: "/docs/screenshots/03-suriya.png",
+        screenshots: ["suriya-user-home.png"],
+        image: "suriya-user-home.png"
     },
     {
         title: "RetailSphere: ERP & PoS System",
@@ -106,8 +106,8 @@ export const projects: Project[] = [
         architectureHighlight:
             "Highly scalable, monorepo ERP built on a clean Controller-Service-Model (CSM) layered architecture, decoupling business logic from the API layer.",
         securityDetails: "Stateless JWT authentication, RBAC middleware, encrypted DB columns.",
-        screenshots: ["/docs/screenshots/04-retailsphere.png"],
-        image: "/docs/screenshots/04-retailsphere.png",
+        screenshots: ["retailsphere-pos.png"],
+        image: "retailsphere-pos.png",
         liveUrl: "https://retail-sphere-super-market-erp-syst.vercel.app/",
     },
 ];
