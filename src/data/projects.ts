@@ -29,9 +29,11 @@ export const projects: Project[] = [
             "Cross-Platform Hybrid Architecture: Unified Next.js codebase",
             "High-Fidelity Motion: Micro-interactions with Framer Motion and GSAP",
         ],
-        liveUrl: "https://kurunegala-furnitures-furniture-sho.vercel.app/",
+        // liveUrl: "https://kurunegala-furnitures-furniture-sho.vercel.app/",
+        videoUrl: "/kurunegala-furnitures-opt.mp4",
+        videoBadge: "Interactive 3D Configurator & Desktop Admin Portal",
         githubUrl: "https://github.com/VirajTharindu/Kurunegala-Furnitures--Furniture-Shop-Page-NextJS-Fullstack--Admin-Dashboard-ElectronJS-Desktop.git",
-        demoType: "live",
+        demoType: "video",
         architectureHighlight:
             "Engineered for Performance: Leveraged Zustand for zero-overhead state management to prevent 3D canvas re-renders, alongside custom Webpack bundle strategies.",
         securityDetails: "End-to-end encrypted local storage, secure Electron IPC bridging.",
