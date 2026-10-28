@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: "Viraj Tharindu — Full-Stack Software Engineer",
   description:
-    "Full-stack software engineer from Sri Lanka building scalable web systems. Explore my portfolio of production-grade projects in React, Next.js, Node.js, TypeScript, and PostgreSQL.",
+    "Full-stack software engineer from Sri Lanka building scalable web systems. Explore my portfolio of production-grade projects in React, Next.js, Angular, Spring Boot, Node.js, TypeScript, and PostgreSQL.",
   keywords: [
     "Viraj Tharindu",
     "Viraj Tharindu portfolio",
@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     "full-stack software engineer",
     "React developer",
     "Next.js developer",
+    "Angular developer",
+    "Spring Boot developer",
+    "Java engineer",
     "Node.js developer",
     "TypeScript developer",
     "PostgreSQL developer",

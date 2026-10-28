@@ -73,13 +73,13 @@ export default function Contact() {
                         className="mt-8 space-y-4"
                     >
                         <a
-                            href="mailto:virajtharindu1997@gmail.com"
+                            href="mailto:virajtharindunayan@gmail.com"
                             className="group flex items-center gap-3 text-muted transition-colors hover:text-foreground"
                         >
                             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
                                 <Mail size={18} />
                             </div>
-                            <span>virajtharindu1997@gmail.com</span>
+                            <span>virajtharindunayan@gmail.com</span>
                             <ArrowUpRight
                                 size={14}
                                 className="opacity-0 transition-opacity group-hover:opacity-100"

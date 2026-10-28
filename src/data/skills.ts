@@ -16,37 +16,27 @@ export const skillGroups: SkillGroup[] = [
         size: "lg",
         skills: [
             { name: "React.js", icon: "Monitor", proof: "Used in 3+ production apps" },
-            { name: "JavaScript", icon: "Code", proof: "Created more than 3+ projects" },
-            { name: "TypeScript", icon: "FileCode", proof: "Primary language across all projects" },
+            { name: "Next.js (SSR)", icon: "Monitor", proof: "App Router, SSR, SSG & Server Actions" },
+            { name: "Angular 17", icon: "Layers", proof: "Signals, standalone components & DI" },
+            { name: "TypeScript / JavaScript", icon: "FileCode", proof: "Primary languages across all projects" },
             { name: "Tailwind CSS", icon: "Palette", proof: "Styled 3+ production interfaces" },
-            { name: "Zustand", icon: "zap", proof: "State management for 3+ projects" },
-            { name: "Context API", icon: "layers", proof: "State management for 3+ projects" },
-            { name: "Redux Toolkit", icon: "layers", proof: "State management for 3+ projects" },
-            { name: "Framer Motion", icon: "Sparkles", proof: "Interactive animations & transitions" },
-            { name: "GSAP", icon: "Sparkles", proof: "Used in a 3D project" },
-            { name: "D3JS", icon: "Sparkles", proof: "Used in data visualization" },
-            { name: "ThreeJS", icon: "Sparkles", proof: "Used in a 3D project" },
-            { name: "ReactThreeFiber", icon: "Sparkles", proof: "Used in a 3D project" },
-            { name: "HTML", icon: "Terminal", proof: "Used in all projects" },
-            { name: "CSS", icon: "Terminal", proof: "Used in all projects" },
-
+            { name: "Flutter", icon: "Smartphone", proof: "Offline-first cross-platform mobile apps" },
+            { name: "Zustand / Redux", icon: "Zap", proof: "Decoupled & centralized state management" },
+            { name: "Framer Motion / 3D", icon: "Sparkles", proof: "Three.js, R3F & interactive animations" },
         ],
     },
     {
         category: "Backend",
         size: "lg",
         skills: [
-            { name: "Next.js", icon: "Monitor", proof: "Used in 3+ production apps" },
             { name: "Node.js / Express", icon: "Server", proof: "REST & WebSocket APIs in production" },
-            { name: "Rest API", icon: "GitBranch", proof: "Flexible API layer for dashboards" },
-            { name: "GraphQL", icon: "GitBranch", proof: "Flexible API layer for dashboards" },
-            { name: "TanStack Query", icon: "GitBranch", proof: "Server side data fetching" },
-            { name: "Websockets", icon: "GitBranch", proof: "Flexible API layer for dashboards" },
-
-            //{ name: "Mongoose", icon: "Database", proof: "Flexible ORM across projects" },
-
-
-
+            { name: "Java 17 / Spring Boot", icon: "Cpu", proof: "Enterprise REST APIs & robust backend services" },
+            { name: "RESTful APIs", icon: "GitBranch", proof: "Flexible, secure endpoint architecture" },
+            { name: "GraphQL", icon: "GitBranch", proof: "Declarative schemas & flexible data queries" },
+            { name: "WebSockets", icon: "Zap", proof: "Bi-directional real-time event streaming" },
+            { name: "Stateless JWT / Auth", icon: "ShieldCheck", proof: "BCrypt, RBAC & token rotation" },
+            { name: "TanStack Query", icon: "RefreshCw", proof: "Server-state caching & synchronisation" },
+            { name: "Python", icon: "Terminal", proof: "Data pipelines, ML integration & scripts" },
         ],
     },
     {
@@ -54,51 +44,40 @@ export const skillGroups: SkillGroup[] = [
         size: "md",
         skills: [
             { name: "PostgreSQL", icon: "Database", proof: "Primary relational DB across projects" },
-            { name: "Supabase", icon: "Database", proof: "Primary cloud-based relational DB across projects" },
-            { name: "Firebase", icon: "Database", proof: "Primary backend-as-a-service DB across projects" },
-            { name: "MySQL", icon: "Database", proof: "Primary relational DB across projects" },
-            { name: "MS SQL Server", icon: "Database", proof: "Primary relational DB across projects" },
-            { name: "SQLite", icon: "Database", proof: "Primary relational DB across projects" },
-            { name: "MongoDB", icon: "HardDrive", proof: "Document store for data" },
-            { name: "Redis", icon: "Zap", proof: "Caching & pub/sub in E-Commerce Furniture App" },
+            { name: "MySQL / Azure SQL", icon: "Database", proof: "Relational storage & transactional queries" },
+            { name: "MongoDB", icon: "HardDrive", proof: "Document store for dynamic data" },
+            { name: "Redis", icon: "Zap", proof: "In-memory caching & pub/sub messaging" },
+            { name: "Supabase / Firebase", icon: "Database", proof: "Realtime cloud database & BaaS" },
         ],
     },
-
-
     {
-        category: "ORM",
+        category: "ORM & Architecture",
         size: "md",
         skills: [
-            { name: "Prisma", icon: "Database", proof: "Flexible ORM across projects" },
-            { name: "Sequelize", icon: "Database", proof: "Flexible ORM across projects" },
-            { name: "Mongoose", icon: "Database", proof: "Flexible ODM across No-SQL projects" },
+            { name: "Prisma", icon: "Layers", proof: "Type-safe ORM across SQL projects" },
+            { name: "Sequelize", icon: "Layers", proof: "Relational ORM for Node.js" },
+            { name: "Repository Pattern", icon: "Boxes", proof: "Decoupled data access & domain layers" },
+            { name: "CSM Architecture", icon: "Layers", proof: "Clean service-module enterprise design" },
         ],
     },
-
     {
         category: "DevOps & Tools",
         size: "md",
         skills: [
-            { name: "Docker", icon: "Container", proof: "Containerized all deployments" },
-            { name: "Git / GitHub/ Github Actions", icon: "GitBranch", proof: "Version control across all projects" },
-            { name: "CI/CD", icon: "RefreshCw", proof: "GitHub Actions pipelines" },
-            { name: "Vercel/ Netlify/ Render", icon: "Terminal", proof: "Deployment and Hosting" },
-            { name: "Lighthouse", icon: "Sparkles", proof: "Web performance optimization" },
-
-
+            { name: "Docker", icon: "Container", proof: "Containerized environments & parity" },
+            { name: "Git & GitHub Actions", icon: "GitBranch", proof: "CI/CD automated build & test pipelines" },
+            { name: "Vercel / Cloud", icon: "Cloud", proof: "Production hosting & edge deployments" },
+            { name: "Lighthouse & SEO", icon: "Gauge", proof: "Performance & Core Web Vitals optimization" },
         ],
     },
-
     {
         category: "Testing",
         size: "md",
         skills: [
-            { name: "Vitest", icon: "Layers", proof: "Unit testing in projects" },
-            { name: "React Testing Library", icon: "Sparkles", proof: "Component testing in 3+ projects" },
-            { name: "Jest", icon: "Sparkles", proof: "Unit testing in 3+ projects" },
-            { name: "Playwright", icon: "Sparkles", proof: "E2E testing in 3+ projects" },
-
-
+            { name: "Vitest / Jest", icon: "CheckCircle2", proof: "Fast unit testing & component suites" },
+            { name: "Playwright (E2E)", icon: "CheckCircle2", proof: "End-to-end multi-browser test suites" },
+            { name: "Full-Stack Debugging", icon: "Wrench", proof: "Profiling, diagnostics & error tracking" },
+            { name: "Agile / Scrum", icon: "Workflow", proof: "Sprint tracking, code reviews & Jira" },
         ],
-    }
+    },
 ];
