@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # Viraj Tharindu · Portfolio
 
@@ -93,7 +93,18 @@ Viraj-Tharindu-Portfolio-Web-Site/
 
 ---
 
-## 📦 Tech Stack
+## 🛠️ Core Skills & Technologies
+
+- **Frontend (Main):** React.js, Next.js (SSR), Angular 17, TypeScript / JavaScript, Tailwind CSS, Flutter, Zustand / Redux, Framer Motion / Three.js
+- **Backend (Main):** Node.js / Express, Java 17 / Spring Boot, RESTful APIs, GraphQL, WebSockets, Stateless JWT / Auth, TanStack Query, Python
+- **Database:** PostgreSQL, MySQL / Azure SQL, MongoDB, Redis, Supabase / Firebase
+- **ORM & Architecture:** Prisma, Sequelize, Repository Pattern, CSM Architecture
+- **DevOps & Tools:** Docker, Git & GitHub Actions (CI/CD), Vercel / Cloud, Lighthouse & SEO
+- **Testing:** Vitest / Jest, Playwright (E2E), Full-Stack Debugging, Agile / Scrum
+
+---
+
+## 📦 Portfolio Site Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -136,6 +147,7 @@ See the [LICENSE](LICENSE) file for full terms.
 
 | Channel | Link |
 |---------|------|
+| 📧 Email | [virajtharindunayan@gmail.com](mailto:virajtharindunayan@gmail.com) |
 | 🌐 Portfolio | [viraj-tharindu-portfolio-web-site.vercel.app](https://viraj-tharindu-portfolio-web-site.vercel.app/) |
 | 💻 GitHub | [github.com/VirajTharindu](https://github.com/VirajTharindu) |
 | 💼 LinkedIn | [linkedin.com/in/virajtharindu](https://www.linkedin.com/in/virajtharindu) |

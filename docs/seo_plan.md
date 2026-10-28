@@ -88,7 +88,7 @@ Add the `image`, `email`, and `telephone` (optional) fields to your existing `Js
 "@type": "Person",
 name: "Viraj Tharindu",
 image: "https://vjstyles.dev/profile_main.png",
-email: "mailto:your@email.com",
+email: "mailto:virajtharindunayan@gmail.com",
 url: "https://vjstyles.dev",
 ```
 

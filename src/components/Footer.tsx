@@ -6,7 +6,7 @@ import { USER_LINKEDIN_URL } from "@/data/testimonials";
 const socialLinks = [
     { icon: Github, href: "https://github.com/VirajTharindu", label: "GitHub" },
     { icon: Linkedin, href: USER_LINKEDIN_URL, label: "LinkedIn" },
-    { icon: Mail, href: "mailto:virajtharindu1997@gmail.com", label: "Email" },
+    { icon: Mail, href: "mailto:virajtharindunayan@gmail.com", label: "Email" },
 ];
 
 export default function Footer() {

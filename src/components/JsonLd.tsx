@@ -18,11 +18,12 @@ export default function JsonLd() {
         "@type": "Person",
         "@id": `${BASE_URL}/#person`,
         name: "Viraj Tharindu",
+        email: "mailto:virajtharindunayan@gmail.com",
         url: BASE_URL,
         image: `${BASE_URL}/profile_main.png`,
         jobTitle: currentJob?.title || "Full-Stack Software Engineer",
         description:
-            "Full-stack software engineer from Sri Lanka building scalable web systems. Experienced in React, Next.js, Node.js, TypeScript, and PostgreSQL.",
+            "Full-stack software engineer from Sri Lanka building scalable web systems. Experienced in React, Next.js, Angular, Spring Boot, Node.js, TypeScript, and PostgreSQL.",
         worksFor: currentJob
             ? { "@type": "Organization", name: currentJob.organization }
             : undefined,

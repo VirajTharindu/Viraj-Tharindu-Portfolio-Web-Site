@@ -7,7 +7,6 @@ import { ArrowLeft, Download, Mail, MapPin, Globe } from "lucide-react";
 import Link from "next/link";
 
 export default function ResumePage() {
-    const allSkills = skillGroups.flatMap((g) => g.skills.map((s) => s.name));
     const workExperience = experienceData.filter((e) => e.type === "work");
     const education = experienceData.filter((e) => e.type === "education");
 
@@ -43,7 +42,7 @@ export default function ResumePage() {
                     </p>
                     <div className="mt-4 flex flex-wrap gap-4 text-sm text-muted print:text-black/70">
                         <span className="inline-flex items-center gap-1.5">
-                            <Mail size={14} /> vjstyles@email.com
+                            <Mail size={14} /> virajtharindunayan@gmail.com
                         </span>
                         <span className="inline-flex items-center gap-1.5">
                             <Globe size={14} /> vjstyles.dev
@@ -146,16 +145,18 @@ export default function ResumePage() {
                 {/* Skills */}
                 <section className="mb-8">
                     <h2 className="mb-3 text-lg font-bold uppercase tracking-wider text-primary print:text-black">
-                        Technical Skills
+                        Technical Skills & Core Competencies
                     </h2>
-                    <div className="flex flex-wrap gap-2">
-                        {allSkills.map((skill) => (
-                            <span
-                                key={skill}
-                                className="rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary-light print:bg-gray-100 print:text-black"
-                            >
-                                {skill}
-                            </span>
+                    <div className="space-y-2.5">
+                        {skillGroups.map((group) => (
+                            <div key={group.category} className="text-sm leading-relaxed">
+                                <span className="font-semibold text-foreground print:text-black">
+                                    {group.category}:{" "}
+                                </span>
+                                <span className="text-muted print:text-black/80">
+                                    {group.skills.map((s) => s.name).join(", ")}
+                                </span>
+                            </div>
                         ))}
                     </div>
                 </section>
